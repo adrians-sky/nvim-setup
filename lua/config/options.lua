@@ -34,3 +34,7 @@ vim.api.nvim_create_autocmd({"TermOpen"},
 -- Formatting options
 vim.cmd("set formatoptions-=o")
 vim.cmd("set formatoptions-=r")
+
+-- Window Splitting
+vim.o.splitright = true
+vim.o.splitbelow = true
