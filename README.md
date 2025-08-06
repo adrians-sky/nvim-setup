@@ -41,6 +41,10 @@ Catppuccin Mocha ([Theme](https://github.com/catppuccin/nvim))
 
 Leader - `SPACE`
 
+Horizontal **Sp**lit - `<Leader>sp`
+
+**V**ertical **Sp**lit - `<Leader>vsp`
+
 Navigate Split Windows (Up/Down/Left/Right) - `<C-W>(j/k/h/l)`
 
 Telescope **F**ind Files - `<Leader>f`
