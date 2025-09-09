@@ -18,9 +18,13 @@ return
         		"css",
                 "make",
                 "c",
-                "cpp"
+                "cpp",
+                "sql"
         	},
-        	highlight = { enable = true },
+        	highlight = { 
+                enable = true,
+                additional_vim_highlighting = { 'markdown', 'markdown-inline' }
+            },
         }
     end,
 }
