@@ -17,6 +17,8 @@ Catppuccin Mocha ([Theme](https://github.com/catppuccin/nvim))
 
 [m4xshen/hardtime.nvim](https://github.com/m4xshen/hardtime.nvim)
 
+[brianhuster/live-preview](https://github.com/brianhuster/live-preview.nvim)
+
 [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
 [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip)
@@ -54,3 +56,5 @@ Telescope **F**ind Files - `<Leader>f`
 Neovim File **E**xplorer - `<Leader>e`
 
 ToggleTerm Open/Close **T**erminal - `<Leader>t`
+
+**L**ive**P**review Start - `<Leader>lp`

@@ -16,3 +16,6 @@ vim.api.nvim_set_keymap('n', '<Leader>e', ':Ex<CR>', { noremap = true, silent = 
 -- ToggleTerm
 vim.api.nvim_set_keymap('n', '<Leader>t', ':ToggleTerm size=20 direction=horizontal<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('t', '<Leader>t', '<C-\\><C-N> :ToggleTerm size=20 direction=horizontal<CR>', { noremap = true, silent = true })
+
+-- LivePreview
+vim.api.nvim_set_keymap('n', '<Leader>lp', ':LivePreview start<CR>', { noremap = true, silent = true })
