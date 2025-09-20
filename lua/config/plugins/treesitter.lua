@@ -19,7 +19,8 @@ return
                 "make",
                 "c",
                 "cpp",
-                "sql"
+                "sql",
+                "yaml"
         	},
         	highlight = { 
                 enable = true,
