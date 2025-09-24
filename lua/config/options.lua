@@ -36,5 +36,5 @@ vim.cmd("set formatoptions-=o")
 vim.cmd("set formatoptions-=r")
 
 -- Window Splitting
-vim.o.splitright = true
+vim.o.splitright = false
 vim.o.splitbelow = true
