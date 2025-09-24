@@ -58,3 +58,5 @@ Neovim File **E**xplorer - `<Leader>e`
 ToggleTerm Open/Close **T**erminal - `<Leader>t`
 
 **L**ive**P**review Start - `<Leader>lp`
+
+**A**dd **C**lass - `<Leader>ac`

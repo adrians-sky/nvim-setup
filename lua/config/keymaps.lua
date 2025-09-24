@@ -19,3 +19,6 @@ vim.api.nvim_set_keymap('t', '<Leader>t', '<C-\\><C-N> :ToggleTerm size=20 direc
 
 -- LivePreview
 vim.api.nvim_set_keymap('n', '<Leader>lp', ':LivePreview start<CR>', { noremap = true, silent = true })
+
+-- Adds a `class=""` to an HTML element
+vim.api.nvim_set_keymap('n', '<Leader>ac', 'A<C-o>i class=""<C-o>h', { noremap = true, silent = true })
