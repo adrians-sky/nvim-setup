@@ -38,3 +38,6 @@ vim.cmd("set formatoptions-=r")
 -- Window Splitting
 vim.o.splitright = false
 vim.o.splitbelow = true
+
+-- Color Column (For deadcolumn.nvim)
+vim.cmd("set colorcolumn=80")
