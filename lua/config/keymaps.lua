@@ -22,3 +22,11 @@ vim.api.nvim_set_keymap('n', '<Leader>lp', ':LivePreview start<CR>', { noremap =
 
 -- Adds a `class=""` to an HTML element
 vim.api.nvim_set_keymap('n', '<Leader>ac', 'A<C-o>i class=""<C-o>h', { noremap = true, silent = true })
+
+-- Nowrap and Wrap
+vim.api.nvim_set_keymap('n', '<Leader>wr', ':set wrap<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>nwr', ':set nowrap<CR>', { noremap = true, silent = true })
+
+-- Buffer Next
+vim.api.nvim_set_keymap('n', '<Leader>bn', ':bn<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>bp', ':bp<CR>', { noremap = true, silent = true })
