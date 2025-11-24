@@ -3,6 +3,10 @@
 My entire Neovim configuration, including keybinds, themes, and 
 plugins.
 
+## TODO
+
+- Workflow Screenshots
+
 ## Color Scheme
 
 Catppuccin Mocha ([Theme](https://github.com/catppuccin/nvim))
