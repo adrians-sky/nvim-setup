@@ -20,7 +20,8 @@ return
                 "c",
                 "cpp",
                 "sql",
-                "yaml"
+                "yaml",
+                "hurl"
         	},
         	highlight = { 
                 enable = true,
