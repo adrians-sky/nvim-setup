@@ -9,7 +9,8 @@ vim.api.nvim_set_keymap('n', '<Leader>sp', ':split ', { noremap = true, silent =
 vim.api.nvim_set_keymap('n', '<Leader>vsp', ':vsplit ', { noremap = true, silent = true })
 
 -- Leader Shortcuts
-vim.api.nvim_set_keymap('n', '<Leader>f', ':Telescope find_files<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>ff', ':Telescope find_files<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>fg', ':lua require("telescope").extensions.live_grep_args.live_grep_args()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Leader>rs', ':resize ', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Leader>e', ':Ex<CR>', { noremap = true, silent = true })
 
