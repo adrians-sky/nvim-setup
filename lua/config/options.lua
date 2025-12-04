@@ -16,7 +16,7 @@ vim.o.softtabstop = 4
 
 -- Color Themes
 vim.o.termguicolors = true
-vim.cmd("colorscheme catppuccin-mocha")
+vim.cmd("colorscheme iceberg")
 
 -- Filler Characters
 vim.opt.fillchars = { eob = " " }
@@ -41,3 +41,6 @@ vim.o.splitbelow = true
 
 -- Color Column (For deadcolumn.nvim)
 vim.cmd("set colorcolumn=80")
+
+-- Telescope Border Colour
+vim.api.nvim_set_hl(0, "TelescopeBorder", { fg = "#161821", bg = "#161821" })

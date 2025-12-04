@@ -16,6 +16,22 @@ return
                 {
                     'node_modules'
                 }
+            },
+            pickers = {
+                find_files = {
+                    theme = "ivy"
+                },
+                live_grep = {
+                    theme = "ivy"
+                },
+                grep_string = {
+                    theme = "ivy"
+                },
+            },
+            extensions = {
+                live_grep_args = {
+                    theme = "ivy"
+                }
             }
         })
 
