@@ -29,7 +29,7 @@ vim.api.nvim_set_keymap('n', '<Leader>e', ':Ex<CR>', { noremap = true, silent = 
 -- nvim-telescope/telescope.nvim
 vim.api.nvim_set_keymap('n', '<Leader>ff', ':Telescope find_files theme=ivy<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Leader>fb', ':Telescope file_browser hidden=true path=%:p:h select_buffer=true theme=ivy<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<Leader>fg', ':lua require("telescope").extensions.live_grep_args.live_grep_args() theme=ivy<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>fg', ':lua require("telescope").extensions.live_grep_args.live_grep_args()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Leader>fk', ':Telescope keymaps theme=ivy<CR>', { noremap = true, silent = true })
 
 -- akinsho/toggleterm.nvim

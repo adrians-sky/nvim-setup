@@ -15,6 +15,13 @@ return
             {
                 file_ignore_patterns = { 'node_modules' }
             },
+            extensions =
+            {
+                live_grep_args =
+                {
+                    theme = "ivy"
+                }
+            }
         })
 
         telescope.load_extension("live_grep_args")
