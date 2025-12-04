@@ -37,3 +37,7 @@ vim.api.nvim_set_keymap('t', '<Leader>`', '<C-\\><C-N> :ToggleTerm size=20 direc
 
 -- brianhuster/live-preview.nvim
 vim.api.nvim_set_keymap('n', '<Leader>lp', ':LivePreview start<CR>', { noremap = true, silent = true })
+
+-- ray-x/web-tools.nvim
+vim.api.nvim_set_keymap('n', '<Leader>bo', ':BrowserOpen<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>bs', ':BrowserStop<CR>', { noremap = true, silent = true })
