@@ -26,6 +26,7 @@ vim.o.laststatus = 3
 vim.opt.fillchars = { eob = " " }
 vim.cmd("set colorcolumn=80")
 vim.api.nvim_set_hl(0, "TelescopeBorder", { fg = "#161821", bg = "#161821" })
+vim.api.nvim_set_hl(0, "LineNr", { fg = "#444b71" })
 
 -- Format Options
 vim.cmd("set formatoptions-=o")
