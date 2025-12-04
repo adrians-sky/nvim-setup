@@ -1,5 +1,6 @@
 {
   "Comment.nvim": { "branch": "master", "commit": "e30b7f2008e52442154b66f7c519bfd2f1e32acb" },
+  "blackjack.nvim": { "branch": "main", "commit": "cf59e79de25b87a3ef68b92b3277c50d4b345a92" },
   "deadcolumn.nvim": { "branch": "master", "commit": "92c86f10bfba2717ca2280e2e759b047135d5288" },
   "hardtime.nvim": { "branch": "main", "commit": "b4e431934af1fe224a3a801f632c008278cb7628" },
   "iceberg": { "branch": "master", "commit": "23835d5ed696436f716cbfdb56a93a7850fe3b18" },
