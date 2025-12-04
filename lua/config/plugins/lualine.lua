@@ -2,11 +2,13 @@ return
 {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
-    options =
-    {
-        theme = "catppuccin-frappe"
-    },
     config = function()
-        require("lualine").setup()
+        require("lualine").setup({
+            options = { 
+                theme = 'iceberg_dark',
+                component_separators = '',
+                section_separators = ''
+            },
+        })
     end,
 }
