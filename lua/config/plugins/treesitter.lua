@@ -5,8 +5,10 @@ return
     lazy = false, 
     build = ":TSUpdate",
     config = function()
-        require("nvim-treesitter.configs").setup {
-        	ensure_installed = {
+        require("nvim-treesitter.configs").setup 
+        {
+        	ensure_installed = 
+            {
         		"java",
         		"javascript",
                 "typescript",
@@ -23,7 +25,8 @@ return
                 "yaml",
                 "hurl"
         	},
-        	highlight = { 
+        	highlight = 
+            { 
                 enable = true,
                 additional_vim_highlighting = { 'markdown', 'markdown-inline' }
             },

@@ -2,11 +2,13 @@ return
 {
     "Bekaboo/deadcolumn.nvim",
     config = function()
-        require("deadcolumn").setup({
+        require("deadcolumn").setup(
+        {
             modes = function(mode)
                 return mode:find('^[iRssn\x13]') ~= nil
             end,
-            warning = {
+            warning = 
+            {
                 scope = 'cursor',
                 colorcode = '#cba6f7',
             },
