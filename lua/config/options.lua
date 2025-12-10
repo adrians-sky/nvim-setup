@@ -10,7 +10,7 @@ vim.o.relativenumber = true
 vim.o.cursorline = true
 
 -- Text Rendering
-vim.o.wrap = true
+vim.o.wrap = false
 vim.o.linebreak = true
 
 -- Line Spacing
