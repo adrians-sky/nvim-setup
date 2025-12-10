@@ -1,7 +1,1 @@
-return
-{
-    "ya2s/nvim-cursorline",
-    config = function()
-        require("nvim-cursorline").setup{}
-    end
-}
+return { "ya2s/nvim-cursorline", opts = {} }

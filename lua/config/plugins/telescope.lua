@@ -1,10 +1,11 @@
 return 
 {
-    'nvim-telescope/telescope.nvim', tag = '0.1.8',
+    "nvim-telescope/telescope.nvim", 
+    tag = "0.1.8",
     dependencies = 
     { 
-        'nvim-lua/plenary.nvim',
-        { 'nvim-telescope/telescope-live-grep-args.nvim', version = '^1.0.0', },
+        "nvim-lua/plenary.nvim",
+        { "nvim-telescope/telescope-live-grep-args.nvim", version = "^1.0.0", },
     },
     config = function()
         local telescope = require("telescope")
@@ -13,7 +14,7 @@ return
         {
             defaults = 
             {
-                file_ignore_patterns = { 'node_modules' }
+                file_ignore_patterns = { "node_modules" }
             },
             extensions =
             {

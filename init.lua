@@ -3,8 +3,8 @@
 -- adrians-sky
 
 -- Plugins
-require('config.lazy')
+require("config.lazy")
 
 -- Settings
-require('config.options')
-require('config.keymaps')
+require("config.options")
+require("config.keymaps")
