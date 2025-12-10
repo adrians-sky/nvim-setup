@@ -23,7 +23,8 @@ return
                 "cpp",
                 "sql",
                 "yaml",
-                "hurl"
+                "hurl",
+                "lua"
         	},
         	highlight = 
             { 
