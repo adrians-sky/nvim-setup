@@ -42,3 +42,8 @@ vim.api.nvim_create_autocmd({"TermOpen"},
     pattern = {"*"},
     command = "setlocal nonumber norelativenumber"
 })
+vim.api.nvim_create_autocmd({"BufWritePre"}, 
+{
+    pattern = {"*js"},
+    command = "Neoformat"
+})
