@@ -8,8 +8,7 @@ return
         end,
         warning = 
         {
-            scope = "cursor",
-            colorcode = "#cba6f7",
+            hlgroup = { "Error", "fg" },
         },
-    }
+    },
 }
